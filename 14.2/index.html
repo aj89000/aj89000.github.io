@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ar" dir="rtl" manifest="cache.appcache">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07101e">
+  <title>AJ 14.2 Ultimate Edition</title>
+  <link rel="stylesheet" href="aj-style.css">
+<style>.aj-launch-controls{margin-top:12px;display:grid;gap:8px;direction:rtl;text-align:right}.aj-launch-options{display:flex;flex-wrap:wrap;align-items:center;gap:10px}.aj-launch-options label{display:inline-flex;align-items:center;gap:5px;color:#dce8f5;font-size:12px;white-space:nowrap}.aj-launch-options input{accent-color:#69dfff}.aj-launch-options button{border:1px solid rgba(105,220,255,.55);border-radius:8px;padding:8px 16px;background:linear-gradient(135deg,#0b4e70,#12314d);color:#fff;font-weight:700;cursor:pointer}.aj-launch-controls #count{margin:0;color:#aeeaff;font-size:12px;min-height:1.2em}.aj-launch-controls #cache{margin:0;color:#9cacc0;font-size:11px;min-height:1.2em}#auto-progress{animation:ajLaunchProgress 5s linear forwards}@keyframes ajLaunchProgress{from{width:0}to{width:100%}}</style></head>
+<body>
+  <div class="scene" aria-hidden="true">
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <div class="horizon"></div>
+    <div class="floor-reflection"></div>
+    <div class="grid-glow"></div>
+  </div>
+
+  <main class="dashboard">
+    <header class="topbar">
+      <div class="edition-mark"><span class="mark-dot"></span> ULTIMATE EDITION</div>
+      <div class="build-label">AJ <span>14.2</span></div>
+    </header>
+
+    <section class="hero" aria-labelledby="page-title"><div class="aj-side-art aj-side-left" aria-hidden="true"><span class="aj-side-orbit"></span><span class="aj-side-orbit-inner"></span><svg class="aj-playstation-mark" viewBox="0 0 122.88 95.18" aria-hidden="true"><path fill="currentColor" d="M2.49 69.39c-4.61 3.07-3.07 8.9 6.75 11.67 10.13 3.38 21.18 4.3 31.93 2.46.61 0 1.23-.31 1.54-.31V72.76l-10.44 3.38c-3.99 1.23-7.98 1.54-11.97.61-3.07-.92-2.46-2.76 1.23-4.3l21.18-7.37V53.73L13.23 63.86C9.55 65.09 5.86 66.93 2.49 69.39L2.49 69.39zM73.71 23.33v29.78c12.59 6.14 22.41 0 22.41-15.96 0-16.27-5.83-23.64-22.72-29.47C64.5 4.6 55.29 1.84 46.08 0v88.73l21.49 6.45V20.57c0-3.38 0-5.83 2.46-4.91.61.92 3.68 4.3 3.68 7.67zM113.63 62.32c-8.9-3.07-18.42-4.3-27.63-3.38-4.91.31-9.52 1.54-13.82 3.07l-.92.31V74.3l19.96-7.37c3.99-1.23 7.98-1.54 11.97-.61 3.99 1.23 2.46 2.76-1.23 4.3L71.26 81.98v11.67l42.37-15.66c3.07-1.23 5.83-2.76 8.29-5.22 2.92-3.38 1.23-7.68-8.29-10.45z"/></svg><span class="aj-side-caption">PLAYSTATION</span><span class="aj-side-detail">THE GAME EXPERIENCE</span></div><div class="aj-side-art aj-side-right" aria-hidden="true"><span class="aj-x-ring"></span><span class="aj-x-ring-inner"></span><span class="aj-x-mark">X</span><span class="aj-side-caption">XBOX</span><span class="aj-side-detail">POWER YOUR PLAY</span></div>
+      <div class="logo-stage">
+        <div class="logo-orbit orbit-one"></div>
+        <div class="logo-orbit orbit-two"></div>
+        <div class="aj-emblem" aria-label="شعار AJ تجريبي">AJ</div>
+        <div class="logo-underlight"></div>
+      </div>
+
+      <p class="eyebrow">PLAYSTATION WEB HOST</p>
+      <h1 id="page-title">AJ 14.2 <span>ULTIMATE</span></h1>
+      <div class="title-rule"><i></i></div>
+      <h2>مكتب أحمد جاسم</h2>
+      <p class="service-line">خدمات أجهزة الألعاب <b>•</b> PS4 <b>•</b> PS5 <b>•</b> XBOX</p>
+      <p class="intro">يبدأ الفحص تلقائياً عند فتح الصفحة — دون أزرار أو تدخل يدوي</p>
+    </section>
+
+    <section class="auto-panel" aria-label="حالة التشغيل التلقائي" aria-live="polite">
+      <div class="auto-panel-head">
+        <span class="auto-label"><i class="pulse-dot"></i> AUTOMATIC STARTUP</span>
+        <span class="auto-mode">NO MANUAL INPUT</span>
+      </div>
+      <div class="auto-main">
+        <div class="scanner-ring" aria-hidden="true"><span></span><i></i></div>
+        <div class="auto-copy">
+          <strong id="auto-title">بدء التهيئة التلقائية</strong>
+          <p id="auto-description">يتم تجهيز واجهة AJ وفحص بيئة التشغيل...</p><form id="pick" class="aj-launch-controls" dir="rtl"><div class="aj-launch-options"><label><input type="radio" name="payload" value="goldhen" checked> GoldHEN</label><label><input type="radio" name="payload" value="hen"> HEN</label><label><input type="checkbox" id="auto" checked> بدء تلقائي</label><button type="submit">ابدأ الآن</button></div><p id="count" aria-live="polite">يبدأ التشغيل تلقائياً خلال خمس ثوانٍ</p><p id="cache" aria-live="polite"></p></form>
+        </div>
+        <span class="auto-state" id="auto-state">STARTING</span>
+      </div>
+      <div class="progress-track" role="presentation"><span id="auto-progress"></span></div>
+      <div class="auto-panel-foot">
+        <span id="device-info">DEVICE: CHECKING</span>
+        <span>MODE: AUTOMATIC</span>
+        <span>AJ SYSTEM</span>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-brand"><span class="footer-line"></span> AJ GAMING SERVICES</div>
+      <div class="phone-numbers" dir="ltr">
+        <span>07711013600</span><i></i><span>07735884550</span>
+      </div>
+      <div class="footer-location">مكتب أحمد جاسم <b>—</b> المقدادية / حي العصري  العراق</div>
+    </footer>
+  </main>
+
+  <script src="aj-app.js"></script>
+<script src="aj-lightning.js"></script>
+<script src="aj-frame-sweep.js"></script>
+<script src="launch.js"></script>
+</body>
+</html>
